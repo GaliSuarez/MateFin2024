@@ -7,7 +7,7 @@ En este repositorio se agrupan las funciones y actividades informaticas realizad
 Con el siguiente codigo, puede usted cargar las funciones relativas a los cálculos de interés simple:
 
 ```{r}
-source("https://raw.githubusercontent.com/GaliSuarez/MateFin2024/refs/heads/main/formulasInteresSimple.R")
+source("https://raw.githubusercontent.com/GaliSuarez/MateFin2024/refs/heads/main/formulasInteresSimple%20(2).R")
 ```
 A contuniación se dan ejemplos de las formulas correspondientes
 
@@ -19,7 +19,7 @@ $i$=24.00% anualizado
 $r$=2.00% mensual
 $t$=7 meses
 
-Se realizan los calculos
+Se realizan los calculos de VF
 ```{r}
 # Creamos objetos con los valores de entrada
 valorActual=1000
@@ -29,4 +29,38 @@ nPeriodos=7
 valorFuturo=valorFinalSimple(VA=valorActual,r=tasaPeriodo,t=nPeriodos)
 # Imprimimos el resultado
 valorFuturo
+```
+Ejemplo de Valor actual 
+```{r}
+#Creamos objetos con los valores de entrada
+valorFinal=1140
+tasaPeriodo=0.02
+nPeriodos=7
+# Calculamos el valor futuro:
+valorActual=valorActualSimple(VF=valorFinal,r=tasaPeriodo,t=nPeriodos)
+# Imprimimos el resultado
+valorActual
+```
+Ejemplo de Interes mensual
+```{r}
+#Creamos objetos con los valores de entrada
+valorFinal=1140
+valorActual=1000
+nPeriodos=7
+# Calculamos el valor futuro:
+interesMensual=r(VF=valorFinal,VA=valorActual,t=nPeriodos)
+# Imprimimos el resultado
+r
+```
+
+Ejemplo de Tiempo 
+```{r}
+#Creamos objetos con los valores de entrada
+valorFinal=1140
+valorActual=1000
+tasaPeriodo=0.02
+# Calculamos el valor futuro:
+tiempo=t(VF=valorFinal,VA=valorActual,r=tasaPeriodos)
+# Imprimimos el resultado
+t
 ```
