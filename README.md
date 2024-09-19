@@ -58,7 +58,7 @@ Ejemplo de Tiempo
 #Creamos objetos con los valores de entrada
 valorFinal=1140
 valorActual=1000
-tasaPeriodo=0.02
+tasaPeriodos=0.02
 # Calculamos el valor futuro:
 tiempo=tSimple(VF=valorFinal,VA=valorActual,r=tasaPeriodos)
 # Imprimimos el resultado
