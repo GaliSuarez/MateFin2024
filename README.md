@@ -48,9 +48,9 @@ valorFinal=1140
 valorActual=1000
 nPeriodos=7
 # Calculamos el valor futuro:
-interesMensual=r(VF=valorFinal,VA=valorActual,t=nPeriodos)
+interesMensual=rSimple(VF=valorFinal,VA=valorActual,t=nPeriodos)
 # Imprimimos el resultado
-r
+interesMensual
 ```
 
 Ejemplo de Tiempo 
@@ -60,7 +60,7 @@ valorFinal=1140
 valorActual=1000
 tasaPeriodo=0.02
 # Calculamos el valor futuro:
-tiempo=t(VF=valorFinal,VA=valorActual,r=tasaPeriodos)
+tiempo=tSimple(VF=valorFinal,VA=valorActual,r=tasaPeriodos)
 # Imprimimos el resultado
-t
+tiempo
 ```
