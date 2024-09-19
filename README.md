@@ -36,7 +36,7 @@ Ejemplo de Valor actual
 valorFinal=1140
 tasaPeriodo=0.02
 nPeriodos=7
-# Calculamos el valor futuro:
+# Calculamos el valor actual:
 valorActual=valorActualSimple(VF=valorFinal,r=tasaPeriodo,t=nPeriodos)
 # Imprimimos el resultado
 valorActual
@@ -47,7 +47,7 @@ Ejemplo de Interes mensual
 valorFinal=1140
 valorActual=1000
 nPeriodos=7
-# Calculamos el valor futuro:
+# Calculamos el Interes mensual:
 interesMensual=rSimple(VF=valorFinal,VA=valorActual,t=nPeriodos)
 # Imprimimos el resultado
 interesMensual
@@ -59,7 +59,7 @@ Ejemplo de Tiempo
 valorFinal=1140
 valorActual=1000
 tasaPeriodos=0.02
-# Calculamos el valor futuro:
+# Calculamos el tiempo:
 tiempo=tSimple(VF=valorFinal,VA=valorActual,r=tasaPeriodos)
 # Imprimimos el resultado
 tiempo
