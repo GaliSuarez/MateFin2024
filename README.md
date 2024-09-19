@@ -9,7 +9,7 @@ Con el siguiente codigo, puede usted cargar las funciones relativas a los cálcu
 ```{r}
 source("https://raw.githubusercontent.com/GaliSuarez/MateFin2024/refs/heads/main/formulasInteresSimple%20(2).R")
 ```
-A contuniación se dan ejemplos de las formulas correspondientes
+A continuación se dan ejemplos de las formulas correspondientes
 
 ### Cálculo del Valor Futuro 
 
